@@ -17,4 +17,7 @@
 17.s2.insertRecord(222,"Aryan");
 18.
 19.s1.displayInformation();
-   s2.displayInformation();
+20.s2.displayInformation();
+21.
+22.}
+23.}   
