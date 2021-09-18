@@ -1,23 +1,22 @@
- public	class Student2{  
-	 int rollno;  
-	 String name;  
+public class square{  
+	 int side;
 	  
-	 void insertRecord(int r, String n){  //method  
-	  rollno=r;  
-	  name=n;  
+	 void insert(int s){  
+	  
+	  side=s;  
 	 }  
 	  
-	 void displayInformation(){System.out.println(rollno+" "+name);}//method  
+	 void calculateArea(){System.out.println(side*side);}  
 	  
 	 public static void main(String args[]){  
-	  Student2 s1=new Student2();  
-	  Student2 s2=new Student2();  
+	  square s1=new square();  
 	  
-	  s1.insertRecord(108,"Priya");  
-	  s2.insertRecord(100,"Akshaya");  
-	  s1.displayInformation();  
-
-	  s2.displayInformation();  
 	  
-	 }  
+	  s1.insert(11);  
+	 
+	  
+	  s1.calculateArea();  
+	  
 	}  
+ }  
+
