@@ -1,9 +1,10 @@
-1.class Student1{
-2.int id;//data member (also instance variable)
-3.String name;//data member(also instance variable)
-4.public static void main(String args[]){
-5.Student1 s1=new Student1();//creating an object of Student
-6.System.out.println(s1.id);
-7.System.out.println(s1.name);
-8.}
-9.}
+public	class Student1{  
+	 int num;//data member (also instance variable)  
+	 String NAME;//data member(also instance variable)  
+	  
+	 public static void main(String args[]){  
+	  Student1 s1=new Student1();//creating an object of Student  
+	  System.out.println(s1.num);  
+	  System.out.println(s1.NAME);  
+	 }  
+	}  
