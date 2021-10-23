@@ -1,15 +1,17 @@
-1.class Student4{
-2.int id;
-3.String name;
-4.student4(int i,String n){
-5.id=i;
-6.name=n;
-7.}
-8.void display(){System.out.println(id+" "+name);}
-9.public static void main(String args[]){
-10.Student4 s1=new Student4(111,"Karan");
-11.Student4 s2=new Student4(222,"Aryan");
-12.s1.display();
-13.s2.display();
-14.}
-15.}
+public class Student4{  
+	    int id;  
+	    String name;  
+	      
+	    Student4(int i,String n){  
+	    id = i;  
+	    name = n;  
+	    }  
+	    void display(){System.out.println(id+" "+name);}  
+	   
+	    public static void main(String args[]){  
+	    Student4 s1 = new Student4(876,"Kani");  
+	    Student4 s2 = new Student4(262,"Ashwin");  
+	    s1.display();  
+	    s2.display();  
+	   }  
+	}
