@@ -1,6 +1,6 @@
-1.class Bike1{
-2.Bike1(){System.out.println("Bike is created");}
-3.public static void main(String args[]){
-4.Bike1 b=new Bike1();
-5.}
-6.}
+public class Bike1{
+Bike1(){System.out.println("Bike is created");}
+public static void main(String args[]){
+Bike1 b=new Bike1();
+}
+}
